@@ -1,0 +1,7 @@
+
+	SELECT R.Code AS [Código da Máquina], R.Name AS [Nome da Máquina], 
+	C.Name AS [Terminal] FROM Resource AS R
+	INNER JOIN ClientGroupResource AS CGR ON CGR.ResourceID = R.ResourceID
+	INNER JOIN Client AS C ON C.ClientGroupID = CGR.ClientGroupID
+	WHERE CGR.ClientGroup = 180 AND R.ResourceID IN(8,27)
+
