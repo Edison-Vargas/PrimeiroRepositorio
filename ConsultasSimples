@@ -1,0 +1,4 @@
+SELECT * FORM Resource
+SELECT * FROM Client
+SELECT * FROM Clientgroup
+SELECT * FROM ClientGroupResource
