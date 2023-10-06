@@ -1,0 +1,1 @@
+UPDATE InspectionPending SET IsEnabled = 0 WHERE EventID = 320829
